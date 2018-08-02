@@ -1,0 +1,40 @@
+	    SUMMARY OF THE HDF4 CONFIGURATION
+	    =================================
+
+General Information:
+-------------------
+		   HDF4 Version: 4.2.14-post0
+		  Configured on: Thu Aug  2 17:14:34 BST 2018
+		  Configured by: tb15@mib111164i-3.local
+		 Configure mode: production
+		    Host system: i386-apple-darwin16.7.0
+              Uname information: Darwin mib111164i-3.local 16.7.0 Darwin Kernel Version 16.7.0: Fri Apr 27 17:59:46 PDT 2018; root:xnu-3789.73.13~1/RELEASE_X86_64 x86_64
+		      Libraries: 
+	     Installation point: /tmp/hdf4/hdf4
+
+Compiling Options:
+------------------
+               Compilation Mode: production
+                     C compiler: /usr/bin/clang
+                         CFLAGS:  -O0
+                       CPPFLAGS:  -DBIG_LONGS -DSWAP 
+               Shared Libraries: no
+               Static Libraries: yes
+  Statically Linked Executables: no
+                        LDFLAGS: 
+ 	 	Extra libraries: -ljpeg -lz 
+ 		       Archiver: ar
+ 		 	 Ranlib: ranlib
+
+Languages:
+----------
+                        Fortran: yes
+               Fortran Compiler: /usr/local/bin/gfortran
+                         FFLAGS:  -O
+
+                           Java: no
+
+Features:
+---------
+               SZIP compression: disabled
+   Support for netCDF API 2.3.2: yes

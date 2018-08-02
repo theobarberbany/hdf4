@@ -1,0 +1,753 @@
+============================
+hrepack.sh  Test Log
+============================
+Testing ./hrepack -t dset7:HUFF 1 -c dset7:10x8x6                     Objects to chunk are...
+	dset7 [10 8 6 ]
+Objects to compress are...
+	dset7 HUFF compression, parameter 1
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset7  ...Found
+Making new file out-HUFF.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+          HUFF (3.10:1)   dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-HUFF.hrepacktst1.hdf        PASSED
+Testing ./hrepack -t dset4:RLE -c dset4:10x8                          Objects to chunk are...
+	dset4 [10 8 ]
+Objects to compress are...
+	dset4 RLE compression, parameter -1
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset4  ...Found
+Making new file out-RLE.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+          RLE  (0.99:1)   dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-RLE.hrepacktst1.hdf         PASSED
+Testing ./hrepack -t dset4:GZIP 6 -c dset4:10x8                       Objects to chunk are...
+	dset4 [10 8 ]
+Objects to compress are...
+	dset4 GZIP compression, parameter 6
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset4  ...Found
+Making new file out-SDSGZIP_CHUNK.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+          GZIP (5.32:1)   dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-SDSGZIP_CHUNK.hrepacktst1.h PASSED
+Testing ./hrepack SDSSZIP_CHUNK hrepacktst1.hdf -c dset4:10x8          -SKIP-
+Testing ./hrepack -t dset_chunk_comp:NONE -t dset_chunk:NONE -c dset_cObjects to chunk are...
+	dset_chunk_comp NONE
+	dset_chunk NONE
+Objects to compress are...
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset_chunk_comp...Found
+                  dset_chunk...Found
+Making new file out-SDSNONE_CHUNKNONE.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP            dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-SDSNONE_CHUNKNONE.hrepackts PASSED
+Testing ./hrepack -t dset4:GZIP 9 -t dset5:RLE -t dset6:HUFF 2 -c dsetObjects to chunk are...
+	dset4 [10 8 ]
+	dset5 [10 8 ]
+	dset6 [10 8 ]
+Objects to compress are...
+	dset4 GZIP compression, parameter 9
+	dset5 RLE compression, parameter -1
+	dset6 HUFF compression, parameter 2
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset4  ...Found
+                  dset5  ...Found
+                  dset6  ...Found
+Making new file out-SDS_CHUNK.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+          GZIP (5.32:1)   dset4  
+          RLE  (0.99:1)   dset5  
+          HUFF (2.85:1)   dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-SDS_CHUNK.hrepacktst1.hdf   PASSED
+Testing ./hrepack -t dset4:GZIP 9 -t dset5:RLE -t dset6:HUFF 2        Objects to chunk are...
+Objects to compress are...
+	dset4 GZIP compression, parameter 9
+	dset5 RLE compression, parameter -1
+	dset6 HUFF compression, parameter 2
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset4  ...Found
+                  dset5  ...Found
+                  dset6  ...Found
+Making new file out-SEL_NOCHUNK.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+          GZIP (29.53:1)  dset4  
+          RLE  (1.00:1)   dset5  
+          HUFF (2.60:1)   dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-SEL_NOCHUNK.hrepacktst1.hdf PASSED
+Testing ./hrepack -t *:GZIP 1 -c dset_chunk_comp:NONE -c dset_chunk:NOObjects to chunk are...
+	dset_chunk_comp NONE
+	dset_chunk NONE
+Objects to compress are...
+	Compress all with GZIP compression, parameter 1
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset_chunk_comp...Found
+                  dset_chunk...Found
+Making new file out-COMPALL_CHUNKNONE.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+          GZIP (10.86:1)  g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+          GZIP (10.86:1)  g1/g2/dset2
+                          g1/g2/vdata2
+          GZIP (10.86:1)  g1/dset1
+                          g1/vdata1
+                          images 
+          GZIP            images/Raster Image #4
+          GZIP            images/Raster Image #5
+          GZIP            images/Raster Image #6
+                          an_group
+          GZIP            gr_none
+          GZIP            gr_gzip
+          GZIP            gr_8bit
+          GZIP            gr_24bit
+          GZIP (10.86:1)  dset4  
+          GZIP (10.86:1)  dset5  
+          GZIP (10.86:1)  dset6  
+          GZIP (10.79:1)  dset7  
+  chunk   GZIP (10.86:1)  dset_chunk
+  chunk   GZIP (10.86:1)  dset_chunk_comp
+          GZIP (10.86:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+          GZIP (10.86:1)  dset_unlw
+          GZIP (10.86:1)  dset_rle
+          GZIP (10.86:1)  dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-COMPALL_CHUNKNONE.hrepackts PASSED
+Testing ./hrepack -c *:10x8                                           Objects to chunk are...
+	Chunk all with dimension [10 8 ]
+Objects to compress are...
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+Making new file out-NOCOMP_CHUNKALL.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+  chunk                   images/Raster Image #4
+  chunk                   images/Raster Image #5
+  chunk                   images/Raster Image #6
+                          an_group
+  chunk                   gr_none
+  chunk   GZIP            gr_gzip
+  chunk                   gr_8bit
+  chunk                   gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+Warning: chunk rank does not apply to <dset7>
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (1.00:1)   dset_chunk_comp
+          GZIP (1.00:1)   dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (1.00:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-NOCOMP_CHUNKALL.hrepacktst1 PASSED
+Testing ./hrepack -t *:GZIP 1                                         Objects to chunk are...
+Objects to compress are...
+	Compress all with GZIP compression, parameter 1
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+Making new file out-GZIP.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+          GZIP (10.86:1)  g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+          GZIP (10.86:1)  g1/g2/dset2
+                          g1/g2/vdata2
+          GZIP (10.86:1)  g1/dset1
+                          g1/vdata1
+                          images 
+          GZIP            images/Raster Image #4
+          GZIP            images/Raster Image #5
+          GZIP            images/Raster Image #6
+                          an_group
+          GZIP            gr_none
+          GZIP            gr_gzip
+          GZIP            gr_8bit
+          GZIP            gr_24bit
+          GZIP (10.86:1)  dset4  
+          GZIP (10.86:1)  dset5  
+          GZIP (10.86:1)  dset6  
+          GZIP (10.79:1)  dset7  
+  chunk   GZIP (6.64:1)   dset_chunk
+  chunk   GZIP (6.64:1)   dset_chunk_comp
+          GZIP (10.86:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+          GZIP (10.86:1)  dset_unlw
+          GZIP (10.86:1)  dset_rle
+          GZIP (10.86:1)  dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-GZIP.hrepacktst1.hdf        PASSED
+Testing ./hrepack                                                     Objects to chunk are...
+Objects to compress are...
+Building list of objects in hrepacktst2.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          data1  
+Searching for objects to modify...
+Making new file out-HYPERSLAB.hrepacktst2.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          data1  
+ PASSED
+Verifying hdiff output hrepacktst2.hdf out-HYPERSLAB.hrepacktst2.hdf   PASSED
+Testing ./hrepack                                                     Objects to chunk are...
+Objects to compress are...
+Building list of objects in hrepacktst3.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g0     
+                          g0/g1  
+                          g0/g1/g1.1
+Searching for objects to modify...
+Making new file out-VGROUP.hrepacktst3.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g0     
+                          g0/g1  
+                          g0/g1/g1.1
+ PASSED
+Verifying hdiff output hrepacktst3.hdf out-VGROUP.hrepacktst3.hdf      PASSED
+All hrepack tests passed.
+
+Finished testing hrepack.sh 
+============================

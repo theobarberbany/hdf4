@@ -1,0 +1,1357 @@
+Making check in hdf
+Making check in src
+make[2]: Nothing to be done for `check'.
+Making check in fortran
+make[3]: Nothing to be done for `check-am'.
+Making check in test
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  testhdf buffer fortest fortestF
+make[3]: `testhdf' is up to date.
+make[3]: `buffer' is up to date.
+make[3]: `fortest' is up to date.
+make[3]: `fortestF' is up to date.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  check-TESTS
+===Serial tests in test begin Thu  2 Aug 2018 17:36:06 BST===
+
+============================
+Testing testhdf 
+----------------------------
+testhdf  Test Log
+----------------------------
+
+For help use: testhdf -help
+Built with HDF Library Version: 4.2.14, HDF Version 4.2 Release 14-post0, July 25, 2018
+
+Testing  -- Bit-Vector routines (bitvect) 
+Testing  -- Threaded Balanced Binary Trees (tbbt) 
+Testing  -- VERSION OF LIBRARY (vers) 
+Testing  -- HFILE (hfile) 
+Testing  -- HFILE LIMITS (hfile1) 
+Testing  -- HBLOCKS (hblocks) 
+Testing  -- EXTERNAL ELEMENTS (extelt) 
+Testing  -- COMPRESSED ELEMENTS (comp) 
+Testing  -- Chunks (chunks) 
+Testing  -- BIT I/O (bitio) 
+Testing  -- 8BIT RASTER IMAGE INTERFACE (8bit) 
+Testing  -- PALETTE INTERFACE (pal) 
+Testing  -- 24BIT RASTER IMAGE INTERFACE (24bit) 
+Testing  -- ENCODING/DECODING INTERFACE (macros) 
+Testing  -- CONVERSION INTERFACE (conv) 
+Testing  -- SDMMS (sdmms) 
+Testing  -- SDNMMS (sdnmms) 
+Testing  -- DATASTRINGS (sdstr) 
+Testing  -- HYPERSLAB INTERFACE (slabs) 
+Testing  -- ANNOTATIONS (anot) 
+Testing  -- UPDATE ANNOTATIONS (anot_2) 
+Testing  -- FILE ANNOTATIONS (anfile) 
+Testing  -- MULTI-ANNOTATIONS (manot) 
+Testing  -- N-Bit Dataset Interface (nbit) 
+Testing  -- LITTLE-ENDIAN INTERFACE (litend) 
+Testing  -- VSET InterfaceTest (vset) 
+Testing  -- VSET Name and Class (vnameclass) 
+Testing  -- VSET AttributeTest (vattr) 
+Testing  -- Vdata fields pack Test (vsfpack) 
+Testing  -- Getting Raw Data's Spatial Information (datainfo) 
+Testing  -- Getting Raw Data's Spatial Information of Attributes (attdatainfo) 
+Testing  -- Multi-File Generic Raster Image Interface (mfgr) 
+         -- ***** GR SZIP test skipped *****
+
+
+All tests were successful. 
+
+
+Cleaning Up...
+
+----------------------------
+Finished testing testhdf 
+
+============================
+Testing buffer 
+----------------------------
+buffer  Test Log
+----------------------------
+Built with HDF Library Version: 4.2.14, HDF Version 4.2 Release 14-post0, July 25, 2018
+
+Unbuffered read time=0.143634 seconds
+Unbuffered write time=0.123464 seconds
+Buffered read time=0.001698 seconds
+Buffered write time=0.001583 seconds
+Unbuffered read time=0.188163 seconds
+Unbuffered write time=0.160155 seconds
+Buffered read time=0.001608 seconds
+Buffered write time=0.001640 seconds
+Unbuffered read time=0.318368 seconds
+Unbuffered write time=0.000230 seconds
+Buffered read time=0.001888 seconds
+Buffered write time=0.002117 seconds
+Unbuffered read time=0.186671 seconds
+Unbuffered write time=0.416057 seconds
+Buffered read time=0.001687 seconds
+Buffered write time=0.001627 seconds
+----------------------------
+Finished testing buffer 
+
+============================
+Testing fortest 
+----------------------------
+fortest  Test Log
+----------------------------
+ ===========================================
+ HDF Library Fortran Interface Tests Setup
+ ===========================================
+   Skipping stubs
+ ===========================================
+ HDF Library Fortran Interface Tests Started
+ ===========================================
+Built with HDF Library Version: 4.2.*
+HDF Version 4.2 Release 14-post0, July 25, 2018                                 
+ Testing -- slab                
+ Testing -- r24                 
+ Testing -- an                  
+ Testing -- anfile              
+ Testing -- manf                
+ Testing -- mgrf                
+ Testing -- p                   
+ Testing -- r8                  
+ Testing -- sdmms               
+ Testing -- sdnmms              
+ Testing -- sdnnt               
+ Testing -- sdnt                
+ Testing -- sdstr               
+ Testing -- vsetf               
+ Testing -- vsetblock           
+ Testing -- vgroups             
+ Testing -- vattrf                   
+ =====================================
+ All Fortran Interface Tests Passed
+ =====================================
+----------------------------
+Finished testing fortest 
+===Serial tests in test ended Thu  2 Aug 2018 17:36:09 BST===
+Making check in util
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  gif2hdf hdf2gif hdf2jpeg hdf24to8 hdf8to24 hdfcomp hdfed hdfls hdfpack hdftopal hdftor8 hdfunpac jpeg2hdf paltohdf r8tohdf ristosds vmake vshow testutil.sh
+make[3]: `gif2hdf' is up to date.
+make[3]: `hdf2gif' is up to date.
+make[3]: `hdf2jpeg' is up to date.
+make[3]: `hdf24to8' is up to date.
+make[3]: `hdf8to24' is up to date.
+make[3]: `hdfcomp' is up to date.
+make[3]: `hdfed' is up to date.
+make[3]: `hdfls' is up to date.
+make[3]: `hdfpack' is up to date.
+make[3]: `hdftopal' is up to date.
+make[3]: `hdftor8' is up to date.
+make[3]: `hdfunpac' is up to date.
+make[3]: `jpeg2hdf' is up to date.
+make[3]: `paltohdf' is up to date.
+make[3]: `r8tohdf' is up to date.
+make[3]: `ristosds' is up to date.
+make[3]: `vmake' is up to date.
+make[3]: `vshow' is up to date.
+make[3]: `testutil.sh' is up to date.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  check-TESTS
+===Serial tests in util begin Thu  2 Aug 2018 17:36:10 BST===
+============================
+Testing testutil.sh 
+Finished testing testutil.sh 
+============================
+testutil.sh  Test Log
+============================
+
+==============================
+HDF Utilities tests started
+==============================
+** Testing gif2hdf and hdf2gif  ***
+ *********************** NOTE ****************************
+ Use WEB Browser and JHV to compare 
+ ./testfiles/SunWheel.gif and ./testfiles/bttrfly.gif 
+ with gif_hdf_temp/SunWheel.hdf and gif_hdf_temp/bttrfly.hdf
+ 
+ Use JHV  and WEB Browser to compare 
+ ./testfiles/skull.hdf and gif_hdf_temp/skull.gif
+ ********************* END NOTE **************************
+
+** Testing hdf24to8  ***
+** Testing hdfed  ***
+** Testing ristosds  ***
+** Testing hdfpack  ***
+** Testing hdftopal/paltohdf  ***
+** Testing r8tohdf/hdftor8  ***
+** Testing hdfcomp  ***
+** Testing jpeg2hdf/hdf2jpeg  ***
+==============================
+HDF Utilities tests passed.
+==============================
+
+
+Finished testing testutil.sh 
+============================
+============================
+===Serial tests in util ended Thu  2 Aug 2018 17:36:10 BST===
+make[2]: Nothing to be done for `check-am'.
+Making check in mfhdf
+Making check in libsrc
+make[2]: Nothing to be done for `check'.
+Making check in fortran
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  ftest hdftest tszip hdftest1 testfortran.sh
+make[4]: `ftest' is up to date.
+make[4]: `hdftest' is up to date.
+make[4]: `tszip' is up to date.
+make[4]: `hdftest1' is up to date.
+make[4]: `testfortran.sh' is up to date.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  check-TESTS
+===Serial tests in fortran begin Thu  2 Aug 2018 17:36:11 BST===
+============================
+Testing testfortran.sh 
+Finished testing testfortran.sh 
+============================
+testfortran.sh  Test Log
+============================
+=============================
+Running Fortran interfaces tests
+=============================
+=============================
+HDF-SD Fortran interfaces tests
+=============================
+ name = Alpha                                             
+ name = TestDim                                           
+ name = Globulator                                        
+ label    = lxxx                                              
+ unit     = uyyy                                              
+ format   = fzzz                                              
+ coordsys = caaa                                              
+ label    = dA                                                
+ unit     = dBB                                               
+ format   = dCCC                                              
+ values = Howdy Sailor                                      
+ Total errors :            0
+ test_file.................. PASSED
+ test_vars.................. PASSED
+  
+=============================
+HDF-NetCDF Fortran interfaces tests
+=============================
+*** Testing nccre ...
+*** Testing ncddef ...
+*** Testing ncvdef ...
+*** Testing ncapt, ncaptc ...
+*** Testing ncclos ...
+*** Testing ncvpt1 ...
+*** Testing ncvgt1 ...
+*** Testing ncvpt ...
+*** Testing ncopn, ncinq, ncdinq, ncvinq, ncanam, ncainq ...
+*** Testing ncvgt, ncvgtc ...
+*** Testing ncagt, ncagtc ...
+*** Testing ncredf, ncdren, ncvren, ncaren, ncendf ...
+*** Testing ncacpy ...
+*** Testing ncadel ...
+*** Testing NetCDF read ...
+=============================
+SZIP Fortran interfaces tests
+=============================
+ Skipping test_szip: compression is not available
+  
+=============================
+All Fortran interfaces tests passed
+=============================
+
+Finished testing testfortran.sh 
+============================
+============================
+===Serial tests in fortran ended Thu  2 Aug 2018 17:36:11 BST===
+Making check in test
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  cdftest hdfnctest hdftest testmfhdf.sh
+make[3]: `cdftest' is up to date.
+make[3]: `hdfnctest' is up to date.
+make[3]: `hdftest' is up to date.
+make[3]: `testmfhdf.sh' is up to date.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  check-TESTS
+===Serial tests in test begin Thu  2 Aug 2018 17:36:11 BST===
+
+============================
+Testing cdftest 
+----------------------------
+cdftest  Test Log
+----------------------------
+dimrename: IXX
+ncclose ret = 0
+
+reopen id = 0 for filename test.cdf
+NC done
+GATTR VAR VATTR
+VATTR
+VATTR
+VATTR
+VATTR
+fill_seq indices	 1 2 3	75.000000 != 2.718282
+Done
+got val = 3.250000
+got val = 0.000000
+got val = 2.718282
+got val = 82555
+got val = 97
+got val = A (0x41) 
+got val = B (0x42) 
+got val = "The red death had long devastated the country."
+re ncclose ret = 0
+----------------------------
+Finished testing cdftest 
+
+============================
+Testing hdfnctest 
+----------------------------
+hdfnctest  Test Log
+----------------------------
+Testing read/write datasets with unlimited dims via SD API (tunlim.c)  PASSED
+Testing read/write variables with unlimited dims via nc API (tncunlim.c) PASSED
+Testing ncvarget fills buffer when reading UDim HDF data sets (tncvarget.c) PASSED
+*** HDF-nc test passes ***
+----------------------------
+Finished testing hdfnctest 
+
+============================
+Testing hdftest 
+----------------------------
+hdftest  Test Log
+----------------------------
+Testing create/read/write compressed datasets (tcomp.c)                PASSED
+Testing create/read/write chunked datasets (tchunk.c)                  PASSED
+Testing reading of netCDF file using the SDxxx inteface (tnetcdf.c)    PASSED
+Testing functionality of dimensions (tdim.c)                           PASSED
+Testing functions involving empty data sets (temptySDSs.c)             PASSED
+Testing various setting attribute features (tattributes.c)             PASSED
+Testing getting data size of special data (tdatasizes.c)               PASSED
+Testing getting location info of data (tdatainfo.c)                    PASSED
+Testing getting location info of attr and annot data (tattdatainfo.c)  PASSED
+Testing a mix of SD, V, and VS functions (tmixed_apis.c)               PASSED
+Testing miscellaneous file related functions (tfile.c)                 PASSED
+Testing various SDS' properties (tsdsprops.c)                          PASSED
+Testing various coordinate variable features (tcoordvar.c)             PASSED
+Testing external file functions (texternal.c)                          PASSED
+Testing szip compression for datasets (tszip.c)                        PASSED
+*** HDF-SD test passes ***
+----------------------------
+Finished testing hdftest 
+============================
+Testing testmfhdf.sh 
+Finished testing testmfhdf.sh 
+============================
+testmfhdf.sh  Test Log
+============================
+=============================
+Running mfhdf tests
+=============================
+=============================
+HDF-SD C interface tests
+=============================
+Testing create/read/write compressed datasets (tcomp.c)                PASSED
+Testing create/read/write chunked datasets (tchunk.c)                  PASSED
+Testing reading of netCDF file using the SDxxx inteface (tnetcdf.c)    PASSED
+Testing functionality of dimensions (tdim.c)                           PASSED
+Testing functions involving empty data sets (temptySDSs.c)             PASSED
+Testing various setting attribute features (tattributes.c)             PASSED
+Testing getting data size of special data (tdatasizes.c)               PASSED
+Testing getting location info of data (tdatainfo.c)                    PASSED
+Testing getting location info of attr and annot data (tattdatainfo.c)  PASSED
+Testing a mix of SD, V, and VS functions (tmixed_apis.c)               PASSED
+Testing miscellaneous file related functions (tfile.c)                 PASSED
+Testing various SDS' properties (tsdsprops.c)                          PASSED
+Testing various coordinate variable features (tcoordvar.c)             PASSED
+Testing external file functions (texternal.c)                          PASSED
+Testing szip compression for datasets (tszip.c)                        PASSED
+*** HDF-SD test passes ***
+=============================
+HDF-nc C interface tests
+=============================
+Testing read/write datasets with unlimited dims via SD API (tunlim.c)  PASSED
+Testing read/write variables with unlimited dims via nc API (tncunlim.c) PASSED
+Testing ncvarget fills buffer when reading UDim HDF data sets (tncvarget.c) PASSED
+*** HDF-nc test passes ***
+=============================
+netCDF formatted tests
+=============================
+trying again
+diff -c cdfout.new ./testout.sav
+*** netCDF passes formatted test ***
+=============================
+All mfhdf tests passed
+=============================
+
+Finished testing testmfhdf.sh 
+============================
+============================
+===Serial tests in test ended Thu  2 Aug 2018 17:36:16 BST===
+Making check in ncdump
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  testncdump.sh
+make[3]: `testncdump.sh' is up to date.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  check-TESTS
+===Serial tests in ncdump begin Thu  2 Aug 2018 17:36:16 BST===
+============================
+Testing testncdump.sh 
+Finished testing testncdump.sh 
+============================
+testncdump.sh  Test Log
+============================
+=============================
+Running ncdump tests
+=============================
+ PASSED
+=============================
+All ncdump tests passed
+=============================
+
+Finished testing testncdump.sh 
+============================
+============================
+===Serial tests in ncdump ended Thu  2 Aug 2018 17:36:16 BST===
+Making check in ncgen
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  ctest0 ftest0 testncgen.sh
+make[3]: `ctest0' is up to date.
+make[3]: `ftest0' is up to date.
+make[3]: `testncgen.sh' is up to date.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  check-TESTS
+===Serial tests in ncgen begin Thu  2 Aug 2018 17:36:16 BST===
+============================
+Testing testncgen.sh 
+Finished testing testncgen.sh 
+============================
+testncgen.sh  Test Log
+============================
+=============================
+Running ncgen tests
+=============================
+testncgen.sh: line 113: [: -ne: unary operator expected
+*** ncgen -b test successful ***
+*** ncgen -c test successful ***
+=============================
+All ncgen tests passed
+=============================
+
+Finished testing testncgen.sh 
+============================
+============================
+===Serial tests in ncgen ended Thu  2 Aug 2018 17:36:16 BST===
+Making check in dumper
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  testhdp.sh
+make[3]: `testhdp.sh' is up to date.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  check-TESTS
+make[3]: Nothing to be done for `check-TESTS'.
+Making check in hdfimport
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  hdfimporttest gen_sds_floats testutil.sh
+make[3]: `hdfimporttest' is up to date.
+make[3]: `gen_sds_floats' is up to date.
+make[3]: `testutil.sh' is up to date.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  check-TESTS
+===Serial tests in hdfimport begin Thu  2 Aug 2018 17:36:17 BST===
+
+============================
+Testing hdfimporttest 
+----------------------------
+hdfimporttest  Test Log
+----------------------------
+----------------------------
+Finished testing hdfimporttest 
+============================
+Testing testutil.sh 
+Finished testing testutil.sh 
+============================
+testutil.sh  Test Log
+============================
+
+==============================
+HDFIMPORT tests started
+==============================
+** Testing hdfimport  ***
+Testing for 32-bit floating point ASCII (2D data)
+Testing for 32-bit floating point ASCII (3D data)
+Testing for 32-bit integer binary (2D data)
+Testing for 32-bit integer  binary (3D data)
+Testing for 16-bit integer binary (2D data)
+Testing for 16-bit integer (3D data)
+Testing for 32-bit floating point binary (2D data)
+Testing for 32-bit floating point binary (3D data)
+Testing for 64-bit floating point binary (2D data) - Default Behaviour (Conversion to 32 bit FP SDS)
+Testing for 64-bit floating point binary (3D data) - Default Behaviour (Conversion to 32-bit FP SDS)
+Testing for 64-bit floating point binary (2D data) - Conversion to 64-bit FP SDS
+Testing for 64-bit floating point binary (3D data) - Conversion to 64-bit FP SDS
+Testing for raster options
+Testing for reading from hdf files
+=================================
+HDFIMPORT Utilities tests passed.
+=================================
+
+
+Finished testing testutil.sh 
+============================
+============================
+===Serial tests in hdfimport ended Thu  2 Aug 2018 17:36:17 BST===
+Making check in hdiff
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  testhdiff.sh
+make[3]: `testhdiff.sh' is up to date.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  check-TESTS
+===Serial tests in hdiff begin Thu  2 Aug 2018 17:36:17 BST===
+
+============================
+Testing hdifftst 
+----------------------------
+hdifftst  Test Log
+----------------------------
+----------------------------
+Finished testing hdifftst 
+============================
+Testing testhdiff.sh 
+Finished testing testhdiff.sh 
+============================
+testhdiff.sh  Test Log
+============================
+=============================
+Running hdiff tests
+=============================
+Testing hdiff                                                          PASSED
+Testing hdiff -g hdifftst1.hdf hdifftst2.hdf                           PASSED
+Testing hdiff -s hdifftst1.hdf hdifftst2.hdf                           PASSED
+Testing hdiff -d hdifftst1.hdf hdifftst2.hdf                           PASSED
+Testing hdiff -D hdifftst1.hdf hdifftst2.hdf                           PASSED
+Testing hdiff -d -S hdifftst1.hdf hdifftst2.hdf                        PASSED
+Testing hdiff -d -v dset1 hdifftst1.hdf hdifftst2.hdf                  PASSED
+Testing hdiff -D -u vdata1 hdifftst1.hdf hdifftst2.hdf                 PASSED
+Testing hdiff -d -e 2 hdifftst1.hdf hdifftst2.hdf                      PASSED
+Testing hdiff -d -t 2 hdifftst1.hdf hdifftst2.hdf                      PASSED
+Testing hdiff hdifftst1.hdf hdifftst2.hdf                              PASSED
+Testing hdiff -d -p 0.05 -v dset3 hdifftst1.hdf hdifftst2.hdf          PASSED
+Testing hdiff hdifftst3.hdf hdifftst4.hdf                              PASSED
+Testing hdiff hdifftst5.hdf hdifftst6.hdf                              PASSED
+Testing hdiff -b hdifftst7.hdf hdifftst7.hdf                           PASSED
+=============================
+All hdiff tests passed
+=============================
+
+Finished testing testhdiff.sh 
+============================
+============================
+===Serial tests in hdiff ended Thu  2 Aug 2018 17:36:20 BST===
+Making check in hrepack
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  hrepack_check test_hrepack hrepack.sh
+make[3]: `hrepack_check' is up to date.
+make[3]: `test_hrepack' is up to date.
+make[3]: `hrepack.sh' is up to date.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  check-TESTS
+===Serial tests in hrepack begin Thu  2 Aug 2018 17:36:20 BST===
+
+============================
+Testing test_hrepack 
+----------------------------
+test_hrepack  Test Log
+----------------------------
+Testing generating files                                               PASSED
+----------------------------
+Finished testing test_hrepack 
+============================
+Testing hrepack.sh 
+Finished testing hrepack.sh 
+============================
+hrepack.sh  Test Log
+============================
+Testing ./hrepack -t dset7:HUFF 1 -c dset7:10x8x6                     Objects to chunk are...
+	dset7 [10 8 6 ]
+Objects to compress are...
+	dset7 HUFF compression, parameter 1
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset7  ...Found
+Making new file out-HUFF.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+          HUFF (3.10:1)   dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-HUFF.hrepacktst1.hdf        PASSED
+Testing ./hrepack -t dset4:RLE -c dset4:10x8                          Objects to chunk are...
+	dset4 [10 8 ]
+Objects to compress are...
+	dset4 RLE compression, parameter -1
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset4  ...Found
+Making new file out-RLE.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+          RLE  (0.99:1)   dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-RLE.hrepacktst1.hdf         PASSED
+Testing ./hrepack -t dset4:GZIP 6 -c dset4:10x8                       Objects to chunk are...
+	dset4 [10 8 ]
+Objects to compress are...
+	dset4 GZIP compression, parameter 6
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset4  ...Found
+Making new file out-SDSGZIP_CHUNK.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+          GZIP (5.32:1)   dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-SDSGZIP_CHUNK.hrepacktst1.h PASSED
+Testing ./hrepack SDSSZIP_CHUNK hrepacktst1.hdf -c dset4:10x8          -SKIP-
+Testing ./hrepack -t dset_chunk_comp:NONE -t dset_chunk:NONE -c dset_cObjects to chunk are...
+	dset_chunk_comp NONE
+	dset_chunk NONE
+Objects to compress are...
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset_chunk_comp...Found
+                  dset_chunk...Found
+Making new file out-SDSNONE_CHUNKNONE.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP            dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-SDSNONE_CHUNKNONE.hrepackts PASSED
+Testing ./hrepack -t dset4:GZIP 9 -t dset5:RLE -t dset6:HUFF 2 -c dsetObjects to chunk are...
+	dset4 [10 8 ]
+	dset5 [10 8 ]
+	dset6 [10 8 ]
+Objects to compress are...
+	dset4 GZIP compression, parameter 9
+	dset5 RLE compression, parameter -1
+	dset6 HUFF compression, parameter 2
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset4  ...Found
+                  dset5  ...Found
+                  dset6  ...Found
+Making new file out-SDS_CHUNK.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+          GZIP (5.32:1)   dset4  
+          RLE  (0.99:1)   dset5  
+          HUFF (2.85:1)   dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-SDS_CHUNK.hrepacktst1.hdf   PASSED
+Testing ./hrepack -t dset4:GZIP 9 -t dset5:RLE -t dset6:HUFF 2        Objects to chunk are...
+Objects to compress are...
+	dset4 GZIP compression, parameter 9
+	dset5 RLE compression, parameter -1
+	dset6 HUFF compression, parameter 2
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset4  ...Found
+                  dset5  ...Found
+                  dset6  ...Found
+Making new file out-SEL_NOCHUNK.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+          GZIP (29.53:1)  dset4  
+          RLE  (1.00:1)   dset5  
+          HUFF (2.60:1)   dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-SEL_NOCHUNK.hrepacktst1.hdf PASSED
+Testing ./hrepack -t *:GZIP 1 -c dset_chunk_comp:NONE -c dset_chunk:NOObjects to chunk are...
+	dset_chunk_comp NONE
+	dset_chunk NONE
+Objects to compress are...
+	Compress all with GZIP compression, parameter 1
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+                  dset_chunk_comp...Found
+                  dset_chunk...Found
+Making new file out-COMPALL_CHUNKNONE.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+          GZIP (10.86:1)  g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+          GZIP (10.86:1)  g1/g2/dset2
+                          g1/g2/vdata2
+          GZIP (10.86:1)  g1/dset1
+                          g1/vdata1
+                          images 
+          GZIP            images/Raster Image #4
+          GZIP            images/Raster Image #5
+          GZIP            images/Raster Image #6
+                          an_group
+          GZIP            gr_none
+          GZIP            gr_gzip
+          GZIP            gr_8bit
+          GZIP            gr_24bit
+          GZIP (10.86:1)  dset4  
+          GZIP (10.86:1)  dset5  
+          GZIP (10.86:1)  dset6  
+          GZIP (10.79:1)  dset7  
+  chunk   GZIP (10.86:1)  dset_chunk
+  chunk   GZIP (10.86:1)  dset_chunk_comp
+          GZIP (10.86:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+          GZIP (10.86:1)  dset_unlw
+          GZIP (10.86:1)  dset_rle
+          GZIP (10.86:1)  dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-COMPALL_CHUNKNONE.hrepackts PASSED
+Testing ./hrepack -c *:10x8                                           Objects to chunk are...
+	Chunk all with dimension [10 8 ]
+Objects to compress are...
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+Making new file out-NOCOMP_CHUNKALL.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+  chunk                   images/Raster Image #4
+  chunk                   images/Raster Image #5
+  chunk                   images/Raster Image #6
+                          an_group
+  chunk                   gr_none
+  chunk   GZIP            gr_gzip
+  chunk                   gr_8bit
+  chunk                   gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+Warning: chunk rank does not apply to <dset7>
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (1.00:1)   dset_chunk_comp
+          GZIP (1.00:1)   dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (1.00:1)   dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-NOCOMP_CHUNKALL.hrepacktst1 PASSED
+Testing ./hrepack -t *:GZIP 1                                         Objects to chunk are...
+Objects to compress are...
+	Compress all with GZIP compression, parameter 1
+Building list of objects in hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+                          g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+                          g1/g2/dset2
+                          g1/g2/vdata2
+                          g1/dset1
+                          g1/vdata1
+                          images 
+                          images/Raster Image #4
+                          images/Raster Image #5
+                          images/Raster Image #6
+                          an_group
+                          gr_none
+          GZIP            gr_gzip
+                          gr_8bit
+                          gr_24bit
+                          dset4  
+                          dset5  
+                          dset6  
+                          dset7  
+  chunk                   dset_chunk
+  chunk   GZIP (16.13:1)  dset_chunk_comp
+          GZIP (29.64:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+                          dset_unlw
+          RLE  (1.00:1)   dset_rle
+          HUFF (2.23:1)   dset_huff
+                          vdata4 
+Searching for objects to modify...
+Making new file out-GZIP.hrepacktst1.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g1     
+                          g1/g2  
+                          g1/g2/g3
+          GZIP (10.86:1)  g1/g2/g3/dset3
+                          g1/g2/g3/vdata3
+          GZIP (10.86:1)  g1/g2/dset2
+                          g1/g2/vdata2
+          GZIP (10.86:1)  g1/dset1
+                          g1/vdata1
+                          images 
+          GZIP            images/Raster Image #4
+          GZIP            images/Raster Image #5
+          GZIP            images/Raster Image #6
+                          an_group
+          GZIP            gr_none
+          GZIP            gr_gzip
+          GZIP            gr_8bit
+          GZIP            gr_24bit
+          GZIP (10.86:1)  dset4  
+          GZIP (10.86:1)  dset5  
+          GZIP (10.86:1)  dset6  
+          GZIP (10.79:1)  dset7  
+  chunk   GZIP (6.64:1)   dset_chunk
+  chunk   GZIP (6.64:1)   dset_chunk_comp
+          GZIP (10.86:1)  dset_gzip
+                          dset_empty
+                          dset_unl
+          GZIP (10.86:1)  dset_unlw
+          GZIP (10.86:1)  dset_rle
+          GZIP (10.86:1)  dset_huff
+                          vdata4 
+ PASSED
+Verifying hdiff output hrepacktst1.hdf out-GZIP.hrepacktst1.hdf        PASSED
+Testing ./hrepack                                                     Objects to chunk are...
+Objects to compress are...
+Building list of objects in hrepacktst2.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          data1  
+Searching for objects to modify...
+Making new file out-HYPERSLAB.hrepacktst2.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          data1  
+ PASSED
+Verifying hdiff output hrepacktst2.hdf out-HYPERSLAB.hrepacktst2.hdf   PASSED
+Testing ./hrepack                                                     Objects to chunk are...
+Objects to compress are...
+Building list of objects in hrepacktst3.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g0     
+                          g0/g1  
+                          g0/g1/g1.1
+Searching for objects to modify...
+Making new file out-VGROUP.hrepacktst3.hdf...
+-----------------------------------------------
+ Chunk   Filter(compression) Name
+-----------------------------------------------
+                          g0     
+                          g0/g1  
+                          g0/g1/g1.1
+ PASSED
+Verifying hdiff output hrepacktst3.hdf out-VGROUP.hrepacktst3.hdf      PASSED
+All hrepack tests passed.
+
+Finished testing hrepack.sh 
+============================
+============================
+===Serial tests in hrepack ended Thu  2 Aug 2018 17:36:26 BST===
+Making check in nctest
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  nctest
+make[3]: `nctest' is up to date.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  check-TESTS
+===Serial tests in nctest begin Thu  2 Aug 2018 17:36:26 BST===
+
+============================
+Testing nctest 
+----------------------------
+nctest  Test Log
+----------------------------
+*** Testing nccreate ...	ok ***
+*** Testing ncopen ...		ok ***
+*** Testing ncredef ...		ok ***
+*** Testing ncendef ...		ok ***
+*** Testing ncclose ...		ok ***
+*** Testing ncinquire ...	ok ***
+*** Testing ncsync ...		ok ***
+*** Testing ncabort ...		ok ***
+*** Testing ncdimdef ...	ok ***
+*** Testing ncdimid ...		ok ***
+*** Testing ncdiminq ...	ok ***
+*** Testing ncdimrename ...	ok ***
+*** Testing ncvardef ...	ok ***
+*** Testing ncvarid ...		ok ***
+*** Testing ncvarinq ...	ok ***
+*** Testing ncvarput1 ...	ok ***
+*** Testing ncvarget1 ...	ok ***
+*** Testing ncvarput ...	ok ***
+*** Testing ncvarget ...	ok ***
+*** Testing ncvarget_unlim ...	ok ***
+*** Testing ncvarputg ...	ok ***
+*** Testing ncvargetg ...	ok ***
+*** Testing ncrecinq ...	ok ***
+*** Testing ncrecput ...	ok ***
+*** Testing ncrecget ...	ok ***
+*** Testing ncvarrename ...	ok ***
+*** Testing ncattput ...	ok ***
+*** Testing ncattinq ...	ok ***
+*** Testing ncattget ...	ok ***
+*** Testing ncattcopy ...	ok ***
+*** Testing ncattname ...	ok ***
+*** Testing ncattrename ...	ok ***
+*** Testing ncattdel ...	ok ***
+*** Testing nctypelen ...	ok ***
+----------------------------
+Finished testing nctest 
+===Serial tests in nctest ended Thu  2 Aug 2018 17:36:27 BST===
+make[2]: Nothing to be done for `check-am'.
+Making check in man
+make[1]: Nothing to be done for `check'.
+make[1]: Nothing to be done for `check-am'.

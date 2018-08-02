@@ -1,0 +1,64 @@
+HDF error: (7) <Error opening file>
+	Detected in Hopen() [hfile.c line 344]
+HDF error: (59) <Invalid arguments to routine>
+	Detected in Hclose() [hfile.c line 480]
+HDF error: (60) <HDF Internal error>
+	Detected in HAatom_object() [atom.c line 324]
+HDF error: (60) <HDF Internal error>
+	Detected in HAIfind_atom() [atom.c line 550]
+HDF error: (7) <Error opening file>
+	Detected in Hopen() [hfile.c line 344]
+HDF error: (59) <Invalid arguments to routine>
+	Detected in Hclose() [hfile.c line 480]
+HDF error: (60) <HDF Internal error>
+	Detected in HAatom_object() [atom.c line 324]
+HDF error: (60) <HDF Internal error>
+	Detected in HAIfind_atom() [atom.c line 550]
+HDF error: (7) <Error opening file>
+	Detected in Hopen() [hfile.c line 344]
+HDF error: (59) <Invalid arguments to routine>
+	Detected in Hclose() [hfile.c line 480]
+HDF error: (60) <HDF Internal error>
+	Detected in HAatom_object() [atom.c line 324]
+HDF error: (60) <HDF Internal error>
+	Detected in HAIfind_atom() [atom.c line 550]
+HDF error: (7) <Error opening file>
+	Detected in Hopen() [hfile.c line 344]
+HDF error: (59) <Invalid arguments to routine>
+	Detected in Hclose() [hfile.c line 480]
+HDF error: (60) <HDF Internal error>
+	Detected in HAatom_object() [atom.c line 324]
+HDF error: (60) <HDF Internal error>
+	Detected in HAIfind_atom() [atom.c line 550]
+HDF error: (7) <Error opening file>
+	Detected in Hopen() [hfile.c line 344]
+HDF error: (59) <Invalid arguments to routine>
+	Detected in Hclose() [hfile.c line 480]
+HDF error: (60) <HDF Internal error>
+	Detected in HAatom_object() [atom.c line 324]
+HDF error: (60) <HDF Internal error>
+	Detected in HAIfind_atom() [atom.c line 550]
+HDF error: (7) <Error opening file>
+	Detected in Hopen() [hfile.c line 344]
+HDF error: (59) <Invalid arguments to routine>
+	Detected in Hclose() [hfile.c line 480]
+HDF error: (60) <HDF Internal error>
+	Detected in HAatom_object() [atom.c line 324]
+HDF error: (60) <HDF Internal error>
+	Detected in HAIfind_atom() [atom.c line 550]
+HDF error: (7) <Error opening file>
+	Detected in Hopen() [hfile.c line 344]
+HDF error: (59) <Invalid arguments to routine>
+	Detected in Hclose() [hfile.c line 480]
+HDF error: (60) <HDF Internal error>
+	Detected in HAatom_object() [atom.c line 324]
+HDF error: (60) <HDF Internal error>
+	Detected in HAIfind_atom() [atom.c line 550]
+HDF error: (7) <Error opening file>
+	Detected in Hopen() [hfile.c line 344]
+HDF error: (59) <Invalid arguments to routine>
+	Detected in Hclose() [hfile.c line 480]
+HDF error: (60) <HDF Internal error>
+	Detected in HAatom_object() [atom.c line 324]
+HDF error: (60) <HDF Internal error>
+	Detected in HAIfind_atom() [atom.c line 550]

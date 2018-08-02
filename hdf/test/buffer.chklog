@@ -1,0 +1,23 @@
+----------------------------
+buffer  Test Log
+----------------------------
+Built with HDF Library Version: 4.2.14, HDF Version 4.2 Release 14-post0, July 25, 2018
+
+Unbuffered read time=0.143634 seconds
+Unbuffered write time=0.123464 seconds
+Buffered read time=0.001698 seconds
+Buffered write time=0.001583 seconds
+Unbuffered read time=0.188163 seconds
+Unbuffered write time=0.160155 seconds
+Buffered read time=0.001608 seconds
+Buffered write time=0.001640 seconds
+Unbuffered read time=0.318368 seconds
+Unbuffered write time=0.000230 seconds
+Buffered read time=0.001888 seconds
+Buffered write time=0.002117 seconds
+Unbuffered read time=0.186671 seconds
+Unbuffered write time=0.416057 seconds
+Buffered read time=0.001687 seconds
+Buffered write time=0.001627 seconds
+----------------------------
+Finished testing buffer 

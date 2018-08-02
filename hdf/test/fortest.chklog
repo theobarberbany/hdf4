@@ -1,0 +1,34 @@
+----------------------------
+fortest  Test Log
+----------------------------
+ ===========================================
+ HDF Library Fortran Interface Tests Setup
+ ===========================================
+   Skipping stubs
+ ===========================================
+ HDF Library Fortran Interface Tests Started
+ ===========================================
+Built with HDF Library Version: 4.2.*
+HDF Version 4.2 Release 14-post0, July 25, 2018                                 
+ Testing -- slab                
+ Testing -- r24                 
+ Testing -- an                  
+ Testing -- anfile              
+ Testing -- manf                
+ Testing -- mgrf                
+ Testing -- p                   
+ Testing -- r8                  
+ Testing -- sdmms               
+ Testing -- sdnmms              
+ Testing -- sdnnt               
+ Testing -- sdnt                
+ Testing -- sdstr               
+ Testing -- vsetf               
+ Testing -- vsetblock           
+ Testing -- vgroups             
+ Testing -- vattrf                   
+ =====================================
+ All Fortran Interface Tests Passed
+ =====================================
+----------------------------
+Finished testing fortest 

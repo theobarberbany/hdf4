@@ -1,0 +1,18 @@
+Cleanup rm -f *.hdf
+Test slab
+Test r24
+Test an
+Test anfile
+Test manf
+Test mgrf
+Test p
+Test r8
+Test sdmms
+Test sdnmms
+Test sdnnt
+Test sdnt
+Test sdstr
+Test vsetf
+Test vsetblock
+Test vgroups
+Test vattrf
